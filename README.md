@@ -3,6 +3,8 @@
 Una aplicación web sencilla e interactiva para organizar el clásico juego del *Amigo Secreto*.  
 Permite agregar nombres a una lista y realizar un sorteo aleatorio para descubrir quién será el amigo secreto.  
 
+link: https://f4rcy.github.io/Amigo-secreto/
+
 ---
 
 ## 🚀 Tecnologías utilizadas  
@@ -13,7 +15,7 @@ Permite agregar nombres a una lista y realizar un sorteo aleatorio para descubri
 ---
 
 ## 📸 Vista previa  
-![Vista previa del proyecto](assets/amigo-secreto.png)  
+![Vista previa del proyecto](assets/vistaprev.png)  
 
 ---
 
