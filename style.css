@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #B39DD8;      /* violeta pastel */
+    --color-secondary: #FFF1F8;    /* rosa muy suave */
+    --color-tertiary: #FFD3E2;     /* rosa pastel para botones secundarios */
+    --color-button: #FF92A9;       /* rosa fuerte para botón principal */
+    --color-button-hover: #FF6F8E; /* rosa más intenso al pasar el mouse */
+    --color-text: #5C5470;         /* gris violeta suave para texto */
+    --color-white: #FFFFFF;        /* blanco */
 }
 
 /* Estilos generales */
@@ -159,4 +159,10 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.header-banner img {
+    max-width: 250px; 
+    height: auto;     
+    margin-left: 20px; 
 }

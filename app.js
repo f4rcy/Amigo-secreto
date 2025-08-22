@@ -28,3 +28,19 @@ function mostraramigos(){
     return;
 }
 
+function sortearAmigo(){
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = "";
+
+    if(nombres.length == 0){
+        alert("Digite los nombres por favor");
+        return;
+    }else{
+        let numeroGanador = Math.floor(Math.random()*nombres.length);
+        let ganador = nombres[numeroGanador];
+        resultado.innerHTML = `El amigo secreto es: ${ganador}`;
+    }
+
+    return;
+}
+
